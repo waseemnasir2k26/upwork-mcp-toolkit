@@ -45,7 +45,7 @@ Every tool validates its input with a schema and returns a structured MCP error 
 
 ## Real output
 
-Everything below is real output from this repo (`python -m upwork_kit ...`, `--now` pinned so it is reproducible). The example jobs are made-up fixtures in [examples/](examples).
+Everything below is real output from this repo (`python -m upwork_kit ...`, `--now 2026-10-12T12:00:00Z` pinned so it is reproducible). The example jobs are made-up fixtures in [examples/](examples).
 
 **A good job** (`examples/job_good.json`):
 
@@ -70,6 +70,8 @@ KILL  score 0/100 (bid at >= 65)  Need full website + app + SEO + logo ASAP chea
   KILL  low_spend_per_hire: Average spend per hire $30 is under $100.
   KILL  stale_unverified: Posted 5.1 days ago; confirm it is still open then re-run with liveness_confirmed=true.
   KILL  payment_unverified: Client payment method is not verified.
+  KILL  unproven_client: Only 1 review(s) despite spend.
+  KILL  low_client_rating: Client rating 3.9 is under 4.4.
   KILL  actual_price: Client says the posted budget is not the real one - a mega-scope for a token price.
   KILL  off_platform_payment: Off-platform payment. Upwork ToS violation and no payment protection.
 ```
