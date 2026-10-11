@@ -1,0 +1,12 @@
+Your CRM-to-Slack alerts and same-day invoice drafts are two small automations that decide whether a lead gets answered, so I would build them with error alerts from day one.
+
+I built a similar n8n flow for a service business: new CRM contact triggers a Slack message and a task, and a failed run pings a channel instead of failing silently. [FILL: replace with your own real, shipped example]
+
+How I would approach yours:
+1. Map the HubSpot deal stages that should fire each alert
+2. Build the Slack alert and the invoice draft step, then test with real records
+3. Add an error branch so nothing fails quietly
+
+One question: when a quote is accepted, does the invoice need approval before it is created, or can it go out as a draft automatically?
+
+I can start this week with a short call inside Upwork messages.

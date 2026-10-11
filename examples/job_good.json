@@ -1,0 +1,18 @@
+{
+  "title": "n8n automation developer to connect our CRM to Slack and invoicing",
+  "description": "We run a 12-person home-services company and need an n8n workflow built that connects our CRM to Slack and our invoicing tool.\n\nDeliverables:\n- New-lead alert in Slack within one minute\n- Auto-create an invoice draft when a quote is accepted\n- Error alerts to a Slack channel when a run fails\n\nWe already use HubSpot and Stripe. Timeline is about 3 weeks. Success means no lead is missed and invoices go out the same day. Please share one example of a similar automation you shipped.",
+  "job_type": "fixed",
+  "budget": "1,800.00",
+  "proposal_count": 4,
+  "created_date": "2026-10-12T06:00:00Z",
+  "skills": ["n8n", "API Integration", "HubSpot", "Slack"],
+  "client": {
+    "country": "United States",
+    "rating": 4.9,
+    "total_reviews": 23,
+    "total_spent": 41000,
+    "total_hires": 31,
+    "total_posted_jobs": 38,
+    "payment_verified": true
+  }
+}

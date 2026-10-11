@@ -1,0 +1,21 @@
+{
+  "id": "example-0001",
+  "title": "Zapier to n8n migration for a small e-commerce team",
+  "url": "https://www.upwork.com/jobs/~example",
+  "budget": "25.00–55.00/hr",
+  "job_type": "hourly",
+  "created_date": "2026-10-12T08:30:00Z",
+  "experience_level": "intermediate",
+  "duration": "1 to 3 months",
+  "skills": ["n8n", "Zapier", "Shopify"],
+  "description_snippet": "We have 14 Zaps on Shopify orders, returns and Klaviyo that we want moved to self-hosted n8n.\n- Inventory the Zaps\n- Rebuild and test each flow\n- Document the handover\nTimeline: 6 weeks. We need the cost savings to be measurable.",
+  "client": {
+    "country": "Canada",
+    "rating": 4.7,
+    "total_reviews": 9,
+    "total_spent": "$18,400.00",
+    "total_hires": 12,
+    "total_posted_jobs": 16,
+    "verification_status": "VERIFIED"
+  }
+}

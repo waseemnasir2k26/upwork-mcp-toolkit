@@ -1,0 +1,9 @@
+Your CRM alerts and same-day invoice drafts decide whether a lead gets answered, so I would build the Slack alert first and wire failure notifications in from day one rather than bolting them on later.
+
+This is a SAMPLE for the linter demo: replace this sentence with one real, shipped example of your own and its outcome.
+
+My plan: map the HubSpot deal stages that should fire each alert, build and test the Slack and invoice steps against real records, then add an error branch so nothing fails quietly.
+
+One question: when a quote is accepted, should the invoice wait for approval, or go out automatically as a draft?
+
+I can start this week and will share a short plan inside Upwork messages first so you can confirm scope before anything is built.

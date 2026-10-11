@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "upwork-mcp-toolkit"
+version = "1.0.0"
+description = "Offline judgment layer for the official Upwork MCP server: job scoring, Connects ROI, proposal lint/outline, red-flag scan, fee-aware rate calculator. MCP server + CLI."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Waseem Nasir" }]
+keywords = ["upwork", "upwork-mcp", "mcp", "mcp-server", "model-context-protocol", "claude", "freelancing", "upwork-proposal"]
+dependencies = ["mcp>=2.3,<3", "pydantic>=2.5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+upwork-kit = "upwork_kit.cli:main"
+upwork-mcp-toolkit = "upwork_kit.server:main"
+
+[project.urls]
+Homepage = "https://github.com/waseemnasir2k26/upwork-mcp-toolkit"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/upwork_kit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
