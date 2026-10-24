@@ -152,10 +152,7 @@ CI: the GitHub Actions workflow (pytest on Ubuntu and Windows, Python 3.11 and 3
 
 - [upwork-job-radar](https://github.com/waseemnasir2k26/upwork-job-radar): scheduled job scoring with Slack alerts (read and alert only).
 
-## Work with SkynetLabs
+---
 
-Built by [Waseem Nasir](https://www.skynetjoe.com/?utm_source=github&utm_medium=readme&utm_campaign=upwork-mcp-toolkit) at SkynetLabs — n8n + AI automation for small businesses.
-
-- Hire on Fiverr: https://www.fiverr.com/agencies/skynetjoellc
-- Hire on Upwork: https://www.upwork.com/freelancers/muhammadwaseemnasir
-- Book a free call: https://calendly.com/skynetlabs/schedule-a-free-consultation
+Need this wired into your business? SkynetLabs builds voice agents, n8n back offices and sites that convert → https://skynetjoe.com
+Contact: info@skynetjoe.com
